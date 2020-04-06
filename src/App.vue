@@ -38,19 +38,22 @@
     </v-app-bar>
 
     <v-content>
-      <HelloWorld/>
+      <Lander/>
+      <Footer />
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Lander from './views/Lander';
+import Footer from './components/Footer';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    Lander,
+    Footer
   },
 
   data: () => ({
